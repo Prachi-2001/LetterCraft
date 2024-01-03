@@ -125,12 +125,12 @@ const Home = () => {
         <div className="row">
           <div
             className="col-lg-6 col-md-6 col-sm-12 col-12 text-center mq"
-            style={{ height: "55%" }}
+            style={{ height: "80%" }}
           >
             <Box
               component="form"
               sx={{
-                "& > :not(style)": { width: "100%" },
+                "& > :not(style)": { width: "100%", marginTop: "10%" },
               }}
               noValidate
               autoComplete="off"
@@ -195,7 +195,7 @@ const Home = () => {
             <Box
               component="form"
               sx={{
-                "& > :not(style)": { width: "100%" },
+                "& > :not(style)": { width: "100%", marginTop: "5vh" },
                 "& input": {
                   color: "black", // Set the default text color to black
                 },
